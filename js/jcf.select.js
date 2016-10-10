@@ -218,7 +218,6 @@ jcf.addModule(function($, window) {
 			this.pressedFlag = true;
 			this.fakeElement.addClass(this.options.pressedClass);
 			this.doc.on('jcf-pointerup', this.onSelectAreaRelease);
-
 			/**
 			 * @todo: Alex Marchenko fix: we need this trigger event bcs we need to know when user click on dropdown 
 			 * it for removing from the items placeholder 
